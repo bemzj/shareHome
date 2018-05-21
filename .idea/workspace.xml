@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7b04fd7-b7bf-457e-8ea3-855b744eda7f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -14,18 +15,119 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="login.scss" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/css/login.scss">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="264">
+                    <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
+                    <folding>
+                      <element signature="e#660#1215#0" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="workbench.scss" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/css/workbench.scss">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="76">
+                    <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+              <entry file="file://$USER_HOME$/Documents/pintuan/index.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="370">
+                    <caret line="158" column="77" lean-forward="true" selection-start-line="158" selection-start-column="77" selection-end-line="158" selection-end-column="77" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="myorder2.html" pinned="false" current-in-tab="false">
+              <entry file="file://$USER_HOME$/Documents/pintuan/myorder2.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="342">
+                    <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="myorder.html" pinned="false" current-in-tab="false">
+              <entry file="file://$USER_HOME$/Documents/pintuan/myorder.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="285">
+                    <caret line="114" column="32" lean-forward="true" selection-start-line="114" selection-start-column="32" selection-end-line="114" selection-end-column="32" />
+                    <folding>
+                      <element signature="n#style#0;n#p#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="editgroup.html" pinned="false" current-in-tab="false">
+              <entry file="file://$USER_HOME$/Documents/pintuan/editgroup.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="551">
+                    <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="public.scss" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/css/public.scss">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="494">
+                    <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workbench.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/workbench.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>14800买两房</find>
+      <find>商品名臣</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,6 +136,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/login.scss" />
+        <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/css/public.scss" />
+        <option value="$PROJECT_DIR$/workbench.html" />
+        <option value="$PROJECT_DIR$/css/workbench.scss" />
+        <option value="$USER_HOME$/Documents/pintuan/editgroup.html" />
+        <option value="$USER_HOME$/Documents/pintuan/myorder.html" />
+        <option value="$USER_HOME$/Documents/pintuan/index.html" />
       </list>
     </option>
   </component>
@@ -46,10 +156,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="532" />
-    <option name="y" value="49" />
-    <option name="width" value="1069" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="925" />
+    <option name="y" value="16" />
+    <option name="width" value="980" />
     <option name="height" value="994" />
   </component>
   <component name="ProjectView">
@@ -67,7 +177,7 @@
             <path>
               <item name="shareHome" type="b2602c69:ProjectViewProjectNode" />
               <item name="shareHome" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -77,6 +187,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -105,18 +216,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526882879018</updated>
-      <workItem from="1526882880255" duration="390000" />
+      <workItem from="1526882880255" duration="8102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="390000" />
+    <option name="totallyTimeSpent" value="8102000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="532" y="49" width="1069" height="994" extended-state="0" />
+    <frame x="925" y="16" width="980" height="994" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24927256" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24840765" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -142,10 +253,72 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/login.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="264">
+          <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
+          <folding>
+            <element signature="e#660#1215#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/public.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/workbench.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/pintuan/editgroup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/pintuan/myorder2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/pintuan/myorder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="114" column="32" lean-forward="true" selection-start-line="114" selection-start-column="32" selection-end-line="114" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/pintuan/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="158" column="77" lean-forward="true" selection-start-line="158" selection-start-column="77" selection-end-line="158" selection-end-column="77" />
         </state>
       </provider>
     </entry>
