@@ -38,7 +38,119 @@
                 </div>
                 <span></span>
             </div>
+            <div class="list2">
+                <div class="l2-top">
+                    <div>
+                        <span>本月定制订单</span>
+                        <span>(30)</span>
+                    </div>
+                    <div>
+                        <button>更多</button>
+                    </div>
+                </div>
+                <div class="l2-bottom">
+                    <div>
+                        <div>
+                            <span>25</span>
+                        </div>
+                        <div>待审核</div>
+                    </div>
+                    <div>
+                        <div>
+                            <span>25</span>
+                        </div>
+                        <div>被驳回</div>
+                    </div>
+                    <div>
+                        <div>
+                            <span>25</span>
+                        </div>
+                        <div>待支付</div>
+                    </div>
+                    <div>
+                        <div>
+                            <span>25</span>
+                        </div>
+                        <div>待收货</div>
+                    </div>
+                </div>
+            </div>
+            <div class="list2 list3">
+                <div class="l2-top">
+                    <div>
+                        <span>客户管理</span>
+                        <span>(300)</span>
+                    </div>
+                    <div>
+                        <button>更多</button>
+                    </div>
+                </div>
+                <div class="l2-bottom">
+                    <div>
+                        <div>
+                            <span>25</span>
+                        </div>
+                        <div>接触中</div>
+                    </div>
+                    <div>
+                        <div>
+                            <span>25</span>
+                        </div>
+                        <div>待量房</div>
+                    </div>
+                    <div>
+                        <div>
+                            <span>25</span>
+                        </div>
+                        <div>待出图</div>
+                    </div>
+                    <div>
+                        <div>
+                            <span>25</span>
+                        </div>
+                        <div>待下单</div>
+                    </div>
+                </div>
+            </div>
+            <div class="list4">
+                <ul>
+                    <li>
+                        <span></span><span>店铺管理</span>
+                    </li>
+                    <li>
+                        <span></span><span>账号管理</span>
+                    </li>
+                    <li>
+                        <span></span><span>我的订单</span>
+                    </li>
+                    <li>
+                        <span></span><span>我的消息</span>
+                    </li>
+                    <li>
+                        <span></span><span>积分明细</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <div class="sel">
+                    <span></span><span>首页</span>
+                </div>
+                <div class="">
+                    <span></span><span>大分享家</span>
+                </div>
+                <div class="">
+                    <span></span><span>工作台</span>
+                </div>
+            </div>
         </div>
     </div>
+    <script>
+        $(function () {
+            $('#workBench .bottom>div').click(function () {
+                $('#workBench .bottom>div').removeClass('sel');
+                $(this).addClass('sel');
+            })
+        })
+    </script>
 </body>
 </html>

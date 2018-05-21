@@ -1,6 +1,196 @@
+body {
+  background-color: #f6f6f6; }
+
 #workBench {
   width: 100%; }
   #workBench .wrap {
     width: 100%; }
+    #workBench .wrap .list1 {
+      width: 100%;
+      height: 2.65rem;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      background: linear-gradient(128deg, #5b6be0, #8dc7ff);
+      position: relative; }
+      #workBench .wrap .list1 > div {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        font-size: 0.24rem;
+        color: #ffffff;
+        margin-left: 0.3rem; }
+        #workBench .wrap .list1 > div > div:first-child {
+          width: 1.5rem;
+          overflow: hidden;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%;
+          height: 1.5rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #fff;
+          margin-right: 0.3rem; }
+          #workBench .wrap .list1 > div > div:first-child img {
+            width: 95%; }
+        #workBench .wrap .list1 > div > div:last-child > div:first-child span:first-child {
+          font-size: 0.36rem;
+          margin-right: 0.1rem; }
+        #workBench .wrap .list1 > div > div:last-child > div:last-child {
+          display: flex;
+          justify-content: left;
+          align-items: center; }
+          #workBench .wrap .list1 > div > div:last-child > div:last-child span:first-child {
+            width: 0.15rem;
+            height: 0.2rem;
+            background: url("../img/icon03.png") no-repeat;
+            background-size: 100% 100%;
+            margin-right: 0.08rem; }
+      #workBench .wrap .list1 > span {
+        display: block;
+        position: absolute;
+        width: 0.28rem;
+        height: 0.06rem;
+        background: url("../img/icon04.png") no-repeat;
+        background-size: 100% 100%;
+        right: 0.4rem;
+        bottom: 0.4rem; }
+    #workBench .wrap .list2 {
+      width: 100%;
+      font-size: 0.26rem;
+      color: #333333;
+      background-color: #fff;
+      margin-bottom: 0.2rem; }
+      #workBench .wrap .list2 .l2-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 0.3rem;
+        height: 0.9rem;
+        border-bottom: 1px solid #e4e4e4; }
+        #workBench .wrap .list2 .l2-top > div:first-child span:last-child {
+          color: #ffa897;
+          margin-left: 0.1rem; }
+        #workBench .wrap .list2 .l2-top > div:last-child button {
+          background-color: #fff2ef;
+          font-size: 0.24rem;
+          color: #fc9b88;
+          border: 1px solid #ffcac0;
+          padding: 0.05rem 0.4rem;
+          -webkit-border-radius: 0.5rem;
+          -moz-border-radius: 0.5rem;
+          border-radius: 0.5rem; }
+      #workBench .wrap .list2 .l2-bottom {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        padding: 0.45rem 0; }
+        #workBench .wrap .list2 .l2-bottom > div {
+          width: 1.2rem;
+          height: 1.65rem; }
+          #workBench .wrap .list2 .l2-bottom > div > div:first-child {
+            margin: auto;
+            width: 1.1rem;
+            height: 1.1rem;
+            background: url("../img/bj02.png") no-repeat;
+            background-size: 100% 100%;
+            position: relative;
+            margin-bottom: 0.18rem; }
+            #workBench .wrap .list2 .l2-bottom > div > div:first-child span {
+              position: absolute;
+              bottom: 0.2rem;
+              width: 100%;
+              left: 0;
+              font-size: 0.3rem;
+              color: #ffffff; }
+    #workBench .wrap .list3 .l2-top > div:first-child span:last-child {
+      color: #8ac3fa; }
+    #workBench .wrap .list3 .l2-top > div:last-child button {
+      color: #7bb9f6;
+      border: 1px solid #b9dcff;
+      background-color: #e0f0ff; }
+    #workBench .wrap .list3 .l2-bottom > div > div:first-child {
+      background: url("../img/bj02_blue.png") no-repeat;
+      background-size: 100% 100%; }
+    #workBench .wrap .list4 {
+      background-color: #fff;
+      margin-bottom: 0.2rem; }
+      #workBench .wrap .list4 > ul {
+        font-size: 0.26rem;
+        color: #333333; }
+        #workBench .wrap .list4 > ul > li {
+          display: flex;
+          justify-content: left;
+          align-items: center;
+          height: 1rem;
+          border-bottom: 1px solid #e4e4e4; }
+          #workBench .wrap .list4 > ul > li span:first-child {
+            width: 0.5rem;
+            height: 0.5rem;
+            background: url("../img/icon05.png") no-repeat;
+            background-size: 100% 100%;
+            margin: 0 0.2rem; }
+        #workBench .wrap .list4 > ul > li:nth-child(2) span:first-child {
+          background: url("../img/icon06.png") no-repeat;
+          background-size: 100% 100%; }
+        #workBench .wrap .list4 > ul > li:nth-child(3) span:first-child {
+          background: url("../img/icon07.png") no-repeat;
+          background-size: 100% 100%; }
+        #workBench .wrap .list4 > ul > li:nth-child(4) span:first-child {
+          background: url("../img/icon08.png") no-repeat;
+          background-size: 100% 100%; }
+        #workBench .wrap .list4 > ul > li:nth-child(5) span:first-child {
+          background: url("../img/icon09.png") no-repeat;
+          background-size: 100% 100%; }
+    #workBench .wrap .bottom {
+      position: fixed;
+      z-index: 100;
+      width: 100%;
+      height: 1rem;
+      bottom: 0;
+      left: 0;
+      background-color: #fff;
+      border-top: 1px solid #e4e4e4;
+      font-size: 0.26rem;
+      color: #333333;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      #workBench .wrap .bottom > div {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        #workBench .wrap .bottom > div > span:first-child {
+          width: 0.35rem;
+          height: 0.3rem;
+          background: url("../img/icon10.png") no-repeat;
+          background-size: 100% 100%;
+          margin-right: 0.1rem; }
+      #workBench .wrap .bottom > div:nth-child(1).sel {
+        color: #a51e32; }
+        #workBench .wrap .bottom > div:nth-child(1).sel > span:first-child {
+          background: url("../img/icon10_sel.png") no-repeat;
+          background-size: 100% 100%; }
+      #workBench .wrap .bottom > div:nth-child(2) > span:first-child {
+        width: 0.3rem;
+        background: url("../img/icon11.png") no-repeat;
+        background-size: 100% 100%; }
+      #workBench .wrap .bottom > div:nth-child(2).sel {
+        color: #a51e32; }
+        #workBench .wrap .bottom > div:nth-child(2).sel > span:first-child {
+          background: url("../img/icon11_sel.png") no-repeat;
+          background-size: 100% 100%; }
+      #workBench .wrap .bottom > div:nth-child(3) > span:first-child {
+        width: 0.3rem;
+        background: url("../img/icon12.png") no-repeat;
+        background-size: 100% 100%; }
+      #workBench .wrap .bottom > div:nth-child(3).sel {
+        color: #a51e32; }
+        #workBench .wrap .bottom > div:nth-child(3).sel > span:first-child {
+          background: url("../img/icon12_sel.png") no-repeat;
+          background-size: 100% 100%; }
 
 /*# sourceMappingURL=workbench.css.map */
