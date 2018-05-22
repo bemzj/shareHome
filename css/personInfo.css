@@ -1,0 +1,142 @@
+body {
+  overflow: hidden; }
+
+#personInfo {
+  width: 100%;
+  height: 100%;
+  background: url("../img/bj01.png") no-repeat;
+  background-size: 100% 100%;
+  position: relative; }
+  #personInfo .list1 {
+    height: 3rem;
+    width: 100%;
+    background: url("../img/bj03.png") no-repeat;
+    background-size: 100% 100%; }
+  #personInfo .list2 {
+    width: 100%;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #333333;
+    position: absolute;
+    top: 0.5rem; }
+    #personInfo .list2 .l2-wrap {
+      width: 92%;
+      margin: auto;
+      background-color: #fff;
+      padding: 0 0.4rem;
+      -webkit-box-shadow: 0 0 10px rgba(51, 51, 51, 0.1);
+      -moz-box-shadow: 0 0 10px rgba(51, 51, 51, 0.1);
+      box-shadow: 0 0 10px rgba(51, 51, 51, 0.1);
+      -webkit-border-radius: 0.1rem;
+      -moz-border-radius: 0.1rem;
+      border-radius: 0.1rem;
+      box-sizing: border-box; }
+      #personInfo .list2 .l2-wrap .l2-1 {
+        border-bottom: 1px solid #e4e4e4;
+        padding: 0.55rem 0; }
+        #personInfo .list2 .l2-wrap .l2-1 .l2-head {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 0.28rem; }
+          #personInfo .list2 .l2-wrap .l2-1 .l2-head > div {
+            width: 1.85rem;
+            height: 1.85rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #eacbd0;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            overflow: hidden; }
+            #personInfo .list2 .l2-wrap .l2-1 .l2-head > div img {
+              width: 95%; }
+        #personInfo .list2 .l2-wrap .l2-1 .l2-info > div:first-child {
+          font-weight: 600;
+          margin-bottom: 0.1rem; }
+          #personInfo .list2 .l2-wrap .l2-1 .l2-info > div:first-child > span:first-child {
+            font-size: 0.36rem;
+            margin-right: 0.1rem; }
+        #personInfo .list2 .l2-wrap .l2-1 .l2-info > div:last-child {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #0189d7; }
+          #personInfo .list2 .l2-wrap .l2-1 .l2-info > div:last-child > span:first-child {
+            width: 0.15rem;
+            height: 0.2rem;
+            background: url("../img/icon13.png") no-repeat;
+            background-size: 100% 100%;
+            margin-right: 0.05rem; }
+      #personInfo .list2 .l2-wrap .l2-2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.35rem 0;
+        color: #888888; }
+        #personInfo .list2 .l2-wrap .l2-2 > div {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          #personInfo .list2 .l2-wrap .l2-2 > div > div:first-child {
+            position: relative; }
+            #personInfo .list2 .l2-wrap .l2-2 > div > div:first-child span {
+              margin-left: 0.3rem; }
+          #personInfo .list2 .l2-wrap .l2-2 > div > div:first-child::before {
+            content: '';
+            display: block;
+            width: 0.18rem;
+            height: 0.24rem;
+            position: absolute;
+            top: 50%;
+            margin-top: -0.12rem;
+            left: 0.05rem;
+            background: url("../img/icon14.png") no-repeat;
+            background-size: 100% 100%; }
+        #personInfo .list2 .l2-wrap .l2-2 > div:last-child > div:first-child::before {
+          content: '';
+          display: block;
+          width: 0.18rem;
+          height: 0.24rem;
+          position: absolute;
+          top: 50%;
+          margin-top: -0.12rem;
+          left: 0.05rem;
+          background: url("../img/icon15.png") no-repeat;
+          background-size: 100% 100%; }
+  #personInfo .list4 {
+    width: 100%;
+    margin-top: 3.5rem; }
+    #personInfo .list4 .l4-wrap {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 0.3rem;
+      color: #888888; }
+      #personInfo .list4 .l4-wrap > div {
+        width: 1.5rem;
+        height: 2.1rem;
+        text-align: center; }
+        #personInfo .list4 .l4-wrap > div > div:first-child {
+          width: 100%;
+          height: 1.5rem;
+          background: url("../img/bj02_01.png") no-repeat;
+          background-size: 100% 100%;
+          position: relative;
+          margin-bottom: 0.2rem; }
+          #personInfo .list4 .l4-wrap > div > div:first-child span {
+            position: absolute;
+            bottom: 0.3rem;
+            left: 0;
+            width: 100%;
+            color: #ffffff; }
+      #personInfo .list4 .l4-wrap > div:nth-child(2) > div:first-child {
+        background: url("../img/bj02_02.png") no-repeat;
+        background-size: 100% 100%; }
+      #personInfo .list4 .l4-wrap > div:nth-child(3) > div:first-child {
+        background: url("../img/bj02_03.png") no-repeat;
+        background-size: 100% 100%; }
+
+/*# sourceMappingURL=personInfo.css.map */

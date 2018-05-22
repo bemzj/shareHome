@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <title>门店主页-详情</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/shopDetail.css">
+    <script src="js/rem.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+</head>
+<body>
+<div class="header">
+    <div>
+        <span class="icon"></span>
+        <span class="title">诗尼曼三房0元定制，北欧风格...</span>
+    </div>
+</div>
+<div id="shopDetail">
+    <div class="list1">
+        <div class="sel">设计效果图</div>
+        <div class="">安装实拍（安装中）</div>
+        <div class="">设计师</div>
+    </div>
+    <div class="list2">
+        <div class="swiper-container swiper4">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div>
+                        <img src="img/img01.png" alt="">
+                        <div>
+                            <span></span><span>卧室</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div>创意理念</div>
+                            <div>
+                                <span>北欧简约</span><span>空间扩容</span>
+                            </div>
+                        </div>
+                        <div>
+                            <p>客厅：客厅户型方正，但宽度较窄，不适摆放大型，家居家具。考虑到张女士家有两个小孩，为了安全，客家居啊厅增加两个上墙的置物架，可以摆放日常摆放到实，文案际空间的装饰等物品，小孩子活动空间更大</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div>
+                        <img src="img/img01.png" alt="">
+                        <div>
+                            <span></span><span>卧室</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div>创意理念</div>
+                            <div>
+                                <span>北欧简约</span><span>空间扩容</span>
+                            </div>
+                        </div>
+                        <div>
+                            <p>客厅：客厅户型方正，但宽度较窄，不适摆放大型，家居家具。考虑到张女士家有两个小孩，为了安全，客家居啊厅增加两个上墙的置物架，可以摆放日常摆放到实，文案际空间的装饰等物品，小孩子活动空间更大</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div>
+                        <img src="img/img01.png" alt="">
+                        <div>
+                            <span></span><span>卧室</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div>创意理念</div>
+                            <div>
+                                <span>北欧简约</span><span>空间扩容</span>
+                            </div>
+                        </div>
+                        <div>
+                            <p>客厅：客厅户型方正，但宽度较窄，不适摆放大型，家居家具。考虑到张女士家有两个小孩，为了安全，客家居啊厅增加两个上墙的置物架，可以摆放日常摆放到实，文案际空间的装饰等物品，小孩子活动空间更大</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination pagin4"></div>
+        </div>
+    </div>
+    <div class="list3">
+        <div>
+            <span>需求信息</span>
+        </div>
+        <div>
+            <div>
+                <span></span><span>刘女士</span>
+            </div>
+            <div>
+                <span></span><span>1500000692</span>
+            </div>
+            <div>
+                <span></span><span>广州天河区恒大御府</span>
+            </div>
+        </div>
+        <div>
+            <p>该方案的，户型较小，家里有两个小孩，孩子比较好动地方希望能充分的利用一下空间，同时家里必备的家具能够非官摆放的下，谢谢~~~</p>
+        </div>
+    </div>
+    <div class="bottom">
+        <div>
+            <span></span><span>晒实拍赢豪礼</span>
+        </div>
+        <div>
+            <span>咨询设计师</span>
+        </div>
+        <div>
+            <span>约TA (201人)</span>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+        let swiper4 = new Swiper('.swiper4',{
+            pagination:{
+                el:'.pagin4',
+                type:'bullets'
+            }
+        })
+        $('#shopDetail .list1>div').click(function () {
+            $('#shopDetail .list1>div').removeClass('sel');
+            $(this).addClass('sel');
+        })
+    })
+</script>
+</body>
+</html>

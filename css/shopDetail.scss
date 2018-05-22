@@ -1,0 +1,199 @@
+body{
+  background-color: #f6f6f6;
+}
+#shopDetail{
+  font-size: 0.26rem;
+  color: #333333;
+  .list1{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 1.1rem;
+    >div{
+
+    }
+    >div.sel{
+      background-color: #d94650;
+      color: #ffffff;
+      padding: 0.15rem 0.4rem;
+      -webkit-border-radius: 0.4rem;
+      -moz-border-radius: 0.4rem;
+      border-radius: 0.4rem;
+    }
+  }
+  .list2{
+    width: 100%;
+    margin-bottom: 0.2rem;
+    .swiper4{
+      .swiper-wrapper{
+        .swiper-slide{
+          background-color: #ffffff;
+          >div:first-child{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+              width: 100%;
+            }
+            >div{
+              position: absolute;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: #ffffff;
+              background: rgba(0,0,0,0.3);
+              -webkit-border-radius: 0.6rem;
+              -moz-border-radius: 0.6rem;
+              border-radius: 0.6rem;
+              padding: 0.15rem 0.4rem;
+              >span:first-child{
+                width: 0.21rem;
+                height: 0.25rem;
+                background: url("../img/icon24.png") no-repeat;
+                background-size: 100% 100%;
+                margin-right: 0.1rem;
+              }
+            }
+          }
+          >div:nth-child(2){
+            padding: 0.4rem 0.25rem;
+            >div:first-child{
+              display: flex;
+              align-items: center;
+              margin-bottom: 0.4rem;
+              >div:first-child{
+                font-size: 0.28rem;
+                font-weight: bold;
+                margin-right: 0.25rem;
+              }
+              >div:last-child{
+                display: flex;
+                align-items: center;
+                >span{
+                  font-size: 0.24rem;
+                  color: #888888;
+                  border: 1px solid #e4e4e4;
+                  padding: 0.08rem 0.3rem;
+                  -webkit-border-radius: 0.3rem;
+                  -moz-border-radius: 0.3rem;
+                  border-radius: 0.3rem;
+                  margin-right: 0.2rem;
+                }
+              }
+            }
+            >div:nth-child(2){
+              p{
+                text-align: justify;
+                line-height: 0.48rem;
+              }
+            }
+          }
+        }
+      }
+      .swiper-pagination{
+        bottom: 42%;
+        .swiper-pagination-bullet{
+          opacity: 1;
+          background-color: #fff;
+          width: 6px;
+          height: 6px;
+        }
+        .swiper-pagination-bullet-active{
+          background-color: #a51e32;
+          width: 8px;
+          height: 8px;
+          position: relative;
+          top: 0.025rem;
+        }
+      }
+    }
+  }
+  .list3{
+    background-color: #fff;
+    padding: 0.45rem 0.25rem;
+    margin-bottom: 1.2rem;
+    >div:first-child{
+      font-size: 0.28rem;
+      color: #333333;
+      font-weight: bold;
+      margin-bottom: 0.25rem;
+    }
+    >div:nth-child(2){
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.25rem;
+      >div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0.5rem;
+        span:first-child{
+          margin-right: 0.05rem;
+          width: 0.19rem;
+          height: 0.2rem;
+          background: url("../img/icon14.png") no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+      >div:nth-child(2){
+        span:first-child{
+          background: url("../img/icon25.png") no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+      >div:nth-child(3){
+        span:first-child{
+          width: 0.17rem;
+          background: url("../img/icon15.png") no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+    }
+    >div:last-child{
+      p{
+        text-align: justify;
+        line-height: 0.45rem;
+      }
+    }
+  }
+  .bottom{
+    width: 100%;
+    height: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    border-top: 1px solid #e4e4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    >div{
+      width: 33.2%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-right: 1px solid #e4e4e4;
+    }
+    >div:first-child{
+      font-size: 0.26rem;
+      color: #8693f3;
+      span:first-child{
+        width: 0.3rem;
+        height: 0.25rem;
+        background:url("../img/icon26.png") no-repeat;
+        background-size: 100% 100%;
+        margin-right: 0.1rem;
+      }
+    }
+    >div:nth-child(2){
+      color: #da4650;
+    }
+    >div:last-child{
+      border-right: 0;
+      color: #199ed8;
+    }
+  }
+}

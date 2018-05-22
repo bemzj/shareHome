@@ -1,0 +1,257 @@
+body {
+  background-color: #f6f6f6; }
+
+#shopIndex {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-size: 0.26rem; }
+  #shopIndex .list1 {
+    width: 100%; }
+    #shopIndex .list1 img {
+      width: 100%; }
+  #shopIndex .list2 {
+    padding: 0.45rem 0.2rem;
+    -webkit-box-shadow: 0 1px 10px rgba(51, 51, 51, 0.1);
+    -moz-box-shadow: 0 1px 10px rgba(51, 51, 51, 0.1);
+    box-shadow: 0 1px 10px rgba(51, 51, 51, 0.1);
+    background-color: #fff;
+    margin-bottom: 0.2rem; }
+    #shopIndex .list2 > div:first-child {
+      font-size: 0.34rem;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      margin-bottom: 0.25rem; }
+      #shopIndex .list2 > div:first-child > span:first-child {
+        font-weight: bold;
+        margin-right: 0.2rem; }
+      #shopIndex .list2 > div:first-child > span:last-child {
+        width: 0.24rem;
+        height: 0.28rem;
+        background: url("../img/icon20.png") no-repeat;
+        background-size: 100% 100%; }
+    #shopIndex .list2 > div:last-child {
+      color: #888888;
+      line-height: 0.5rem;
+      text-align: justify; }
+  #shopIndex .list3 {
+    width: 100%;
+    background-color: #fff;
+    padding: 0 0.3rem 0.3rem 0.3rem;
+    box-sizing: border-box;
+    margin-bottom: 0.2rem; }
+    #shopIndex .list3 > div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.35rem 0;
+      border-bottom: 1px solid #e4e4e4; }
+      #shopIndex .list3 > div > div:first-child {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        #shopIndex .list3 > div > div:first-child > span:first-child {
+          width: 0.22rem;
+          height: 0.27rem;
+          background: url("../img/icon21.png") no-repeat;
+          background-size: 100% 100%;
+          margin-right: 0.1rem; }
+      #shopIndex .list3 > div > div:last-child {
+        width: 0.15rem;
+        height: 0.25rem;
+        background: url("../img/next.png") no-repeat;
+        background-size: 100% 100%; }
+    #shopIndex .list3 > div:nth-child(2) > div:first-child {
+      color: #d94650; }
+      #shopIndex .list3 > div:nth-child(2) > div:first-child > span:first-child {
+        width: 0.32rem;
+        background: url("../img/icon22.png") no-repeat;
+        background-size: 100% 100%; }
+    #shopIndex .list3 > div:nth-child(2) > div:last-child {
+      width: 1.4rem;
+      height: 0.6rem;
+      background: none; }
+      #shopIndex .list3 > div:nth-child(2) > div:last-child button {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #fff1f2;
+        border: 1px solid #ffc7cb;
+        color: #d94650;
+        -webkit-border-radius: 0.6rem;
+        -moz-border-radius: 0.6rem;
+        border-radius: 0.6rem; }
+  #shopIndex .list4 {
+    margin-bottom: 1rem; }
+    #shopIndex .list4 .l4-nav {
+      background-color: #fff; }
+      #shopIndex .list4 .l4-nav .search-nav {
+        width: 100%;
+        padding: 0.5rem 0; }
+        #shopIndex .list4 .l4-nav .search-nav > div {
+          width: 90%;
+          border: 1px solid #c8c8c8;
+          margin: auto;
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 0.8rem;
+          -webkit-border-radius: 0.8rem;
+          -moz-border-radius: 0.8rem;
+          border-radius: 0.8rem; }
+          #shopIndex .list4 .l4-nav .search-nav > div > div {
+            position: absolute;
+            width: 100%;
+            font-size: 0.26rem;
+            color: #999999; }
+            #shopIndex .list4 .l4-nav .search-nav > div > div > div {
+              display: flex;
+              justify-content: center;
+              align-items: center; }
+              #shopIndex .list4 .l4-nav .search-nav > div > div > div i {
+                display: inline-block;
+                width: 0.28rem;
+                height: 0.3rem;
+                background: url("../img/icon17.png") no-repeat;
+                background-size: 100% 100%;
+                margin-right: 0.1rem; }
+          #shopIndex .list4 .l4-nav .search-nav > div > input {
+            width: 90%;
+            text-align: center;
+            font-size: 0.26rem;
+            border: 0; }
+      #shopIndex .list4 .l4-nav .tag-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0 0.3rem; }
+        #shopIndex .list4 .l4-nav .tag-nav > div {
+          font-size: 0.24rem;
+          color: #888888;
+          padding: 0.15rem 0;
+          width: 23%;
+          text-align: center;
+          border: 1px solid #e4e4e4;
+          -webkit-border-radius: 0.35rem;
+          -moz-border-radius: 0.35rem;
+          border-radius: 0.35rem;
+          margin-bottom: 0.4rem; }
+        #shopIndex .list4 .l4-nav .tag-nav > div.sel {
+          background-color: #d94650;
+          border: 1px solid #d94650;
+          color: #ffffff; }
+        #shopIndex .list4 .l4-nav .tag-nav > div:last-child {
+          background-color: #fff1f2;
+          border: 1px solid #ffc7cb;
+          color: #d94650; }
+    #shopIndex .list4 .l4-cont {
+      width: 100%;
+      padding: 0.2rem 0;
+      background-color: #fff; }
+      #shopIndex .list4 .l4-cont .l4-slide {
+        background-color: #fff;
+        width: 95%;
+        margin: auto;
+        margin-bottom: 0.25rem; }
+        #shopIndex .list4 .l4-cont .l4-slide > div:first-child {
+          position: relative; }
+          #shopIndex .list4 .l4-cont .l4-slide > div:first-child img {
+            width: 100%; }
+          #shopIndex .list4 .l4-cont .l4-slide > div:first-child span {
+            position: absolute;
+            right: -0.055rem;
+            top: 0;
+            width: 0.8rem;
+            height: 0.45rem;
+            background: url("../img/img02.png") no-repeat;
+            background-size: 100% 100%;
+            text-align: center;
+            font-size: 0.24rem;
+            color: #ffffff;
+            line-height: 0.38rem; }
+        #shopIndex .list4 .l4-cont .l4-slide > div:nth-child(2) {
+          padding: 0.4rem 0 0.4rem 0.3rem;
+          font-size: 0.3rem;
+          color: #333333;
+          border: 1px solid #e4e4e4; }
+          #shopIndex .list4 .l4-cont .l4-slide > div:nth-child(2) > div:first-child {
+            font-weight: bold;
+            margin-bottom: 0.35rem; }
+          #shopIndex .list4 .l4-cont .l4-slide > div:nth-child(2) > div:nth-child(2) {
+            display: flex;
+            justify-content: left;
+            align-items: center; }
+            #shopIndex .list4 .l4-cont .l4-slide > div:nth-child(2) > div:nth-child(2) > div {
+              width: 1.6rem;
+              text-align: center;
+              padding: 0.1rem 0;
+              margin-right: 0.2rem;
+              border: 1px solid #e4e4e4;
+              -webkit-border-radius: 0.4rem;
+              -moz-border-radius: 0.4rem;
+              border-radius: 0.4rem;
+              font-size: 0.24rem;
+              color: #888888; }
+        #shopIndex .list4 .l4-cont .l4-slide > div:nth-child(3) {
+          display: flex;
+          height: 0.8rem;
+          justify-content: space-between;
+          align-items: center;
+          border: 1px solid #e4e4e4;
+          border-top: 0; }
+          #shopIndex .list4 .l4-cont .l4-slide > div:nth-child(3) > div {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.24rem;
+            color: #888888; }
+            #shopIndex .list4 .l4-cont .l4-slide > div:nth-child(3) > div > div:first-child {
+              width: 0.55rem;
+              height: 0.55rem;
+              -webkit-border-radius: 50%;
+              -moz-border-radius: 50%;
+              border-radius: 50%;
+              overflow: hidden;
+              margin-right: 0.1rem; }
+              #shopIndex .list4 .l4-cont .l4-slide > div:nth-child(3) > div > div:first-child img {
+                width: 100%; }
+          #shopIndex .list4 .l4-cont .l4-slide > div:nth-child(3) > div:last-child {
+            border-left: 0;
+            border-left: 1px solid #e4e4e4; }
+            #shopIndex .list4 .l4-cont .l4-slide > div:nth-child(3) > div:last-child > div:first-child {
+              width: 0.35rem;
+              height: 0.25rem;
+              background: url("../img/icon23.png") no-repeat;
+              background-size: 100% 100%; }
+    #shopIndex .list4 .l4-bottom {
+      width: 100%;
+      text-align: center;
+      font-size: 0.26rem;
+      color: #888888;
+      padding: 0.35rem 0; }
+  #shopIndex .bottom {
+    position: fixed;
+    width: 100%;
+    height: 1rem;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    border-top: 1px solid #e4e4e4;
+    background-color: #fff; }
+    #shopIndex .bottom > div {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.28rem;
+      color: #199ed8; }
+    #shopIndex .bottom > div:first-child {
+      border-right: 1px solid #e4e4e4;
+      color: #da4650; }
+
+/*# sourceMappingURL=shopIndex.css.map */

@@ -1,0 +1,174 @@
+body {
+  overflow-x: hidden; }
+
+#clientList {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-size: 0.24rem;
+  color: #333333; }
+  #clientList .list1 {
+    width: 100%;
+    height: 3.4rem;
+    background: url("../img/bj04.png") no-repeat;
+    background-size: 100% 100%;
+    color: #ffffff;
+    padding: 0.01rem; }
+    #clientList .list1 > div {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    #clientList .list1 > div:first-child {
+      margin-top: 1rem;
+      font-size: 0.26rem; }
+    #clientList .list1 > div:nth-child(2) {
+      margin-top: 0.5rem; }
+      #clientList .list1 > div:nth-child(2) span:first-child {
+        width: 0.31rem;
+        height: 0.31rem;
+        background: url("../img/icon16.png") no-repeat;
+        background-size: 100% 100%;
+        margin-right: 0.1rem; }
+  #clientList .list2 {
+    width: 100%;
+    padding: 0.5rem 0; }
+    #clientList .list2 > div {
+      width: 90%;
+      border: 1px solid #c8c8c8;
+      margin: auto;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 0.8rem;
+      -webkit-border-radius: 0.8rem;
+      -moz-border-radius: 0.8rem;
+      border-radius: 0.8rem; }
+      #clientList .list2 > div > div {
+        position: absolute;
+        width: 100%;
+        font-size: 0.26rem;
+        color: #999999; }
+        #clientList .list2 > div > div > div {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          #clientList .list2 > div > div > div i {
+            display: inline-block;
+            width: 0.28rem;
+            height: 0.3rem;
+            background: url("../img/icon17.png") no-repeat;
+            background-size: 100% 100%;
+            margin-right: 0.1rem; }
+      #clientList .list2 > div > input {
+        width: 90%;
+        text-align: center;
+        font-size: 0.26rem;
+        border: 0; }
+  #clientList .list3-nav {
+    width: 100%;
+    display: -webkit-box;
+    padding: 0.3rem 0.01rem;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    font-size: 0.24rem;
+    color: #888888;
+    overflow-x: scroll;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch; }
+    #clientList .list3-nav > div {
+      text-align: center;
+      width: 1.6rem;
+      padding: 0.15rem 0;
+      margin: 0 0.1rem;
+      border: 1px solid #e4e4e4;
+      -webkit-border-radius: 0.4rem;
+      -moz-border-radius: 0.4rem;
+      border-radius: 0.4rem; }
+    #clientList .list3-nav > div.sel {
+      border: 1px solid #6ebaff;
+      background-color: #6ebaff;
+      color: #ffffff; }
+    #clientList .list3-nav > div:last-child {
+      margin: 0 0 0 0.2rem; }
+  #clientList .list4 {
+    width: 100%; }
+    #clientList .list4 .l4-slide {
+      width: 92%;
+      margin: auto;
+      margin-bottom: 0.3rem;
+      -webkit-box-shadow: 0 0 10px rgba(51, 51, 51, 0.1);
+      -moz-box-shadow: 0 0 10px rgba(51, 51, 51, 0.1);
+      box-shadow: 0 0 10px rgba(51, 51, 51, 0.1);
+      box-sizing: border-box;
+      padding: 0 0.35rem;
+      -webkit-border-radius: 0.1rem;
+      -moz-border-radius: 0.1rem;
+      border-radius: 0.1rem; }
+      #clientList .list4 .l4-slide .slide1 {
+        border-bottom: 1px solid #e4e4e4;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.34rem 0; }
+        #clientList .list4 .l4-slide .slide1 > div:first-child {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          #clientList .list4 .l4-slide .slide1 > div:first-child > span:first-child {
+            width: 0.25rem;
+            height: 0.25rem;
+            background: url("../img/icon18.png") no-repeat;
+            background-size: 100% 100%;
+            margin-right: 0.1rem; }
+          #clientList .list4 .l4-slide .slide1 > div:first-child > span:nth-child(2) {
+            font-size: 0.28rem; }
+          #clientList .list4 .l4-slide .slide1 > div:first-child > span:last-child {
+            font-size: 0.22rem; }
+        #clientList .list4 .l4-slide .slide1 > div:last-child {
+          color: #a51e32;
+          font-size: 0.24rem; }
+      #clientList .list4 .l4-slide .slide2 {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        font-size: 0.26rem;
+        color: #888888;
+        padding: 0.35rem 0; }
+        #clientList .list4 .l4-slide .slide2 > div {
+          margin-left: 0.35rem; }
+          #clientList .list4 .l4-slide .slide2 > div > div {
+            margin-bottom: 0.25rem; }
+          #clientList .list4 .l4-slide .slide2 > div > div:last-child {
+            margin-bottom: 0; }
+      #clientList .list4 .l4-slide .slide3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #e4e4e4;
+        font-size: 0.26rem;
+        color: #555555;
+        padding: 0.3rem 0; }
+        #clientList .list4 .l4-slide .slide3 > div:first-child {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          #clientList .list4 .l4-slide .slide3 > div:first-child > span:first-child {
+            width: 0.3rem;
+            height: 0.25rem;
+            background: url("../img/icon19.png") no-repeat;
+            background-size: 100% 100%;
+            margin-right: 0.1rem; }
+        #clientList .list4 .l4-slide .slide3 > div:last-child {
+          font-size: 0.22rem;
+          color: #c8c8c8; }
+    #clientList .list4 .l4-slide:first-child {
+      margin-top: 0.3rem; }
+  #clientList .list5 {
+    text-align: center;
+    font-size: 0.26rem;
+    color: #888888;
+    background-color: #f6f6f6;
+    padding: 0.3rem 0; }
+
+/*# sourceMappingURL=clientList.css.map */
