@@ -1,0 +1,346 @@
+#stylist {
+  width: 100%;
+  height: 100%;
+  font-size: 0.26rem;
+  color: #333333; }
+  #stylist .list1 {
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 0.2rem; }
+    #stylist .list1 .banner {
+      width: 100%; }
+      #stylist .list1 .banner img {
+        width: 100%; }
+    #stylist .list1 .info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.35rem 0 0.35rem 0.25rem; }
+      #stylist .list1 .info .left {
+        width: 60%;
+        display: flex;
+        align-items: center; }
+        #stylist .list1 .info .left > div {
+          font-size: 0.2rem;
+          color: #888888;
+          border: 1px solid #e4e4e4;
+          padding: 0.05rem 0.1rem;
+          margin-right: 0.1rem; }
+          #stylist .list1 .info .left > div span:first-child {
+            margin-right: 0.1rem; }
+        #stylist .list1 .info .left > div:last-child {
+          margin-right: 0; }
+      #stylist .list1 .info .right {
+        width: 40%;
+        position: relative; }
+        #stylist .list1 .info .right > div:first-child {
+          font-size: 0.3rem;
+          color: #555555;
+          font-weight: bold; }
+        #stylist .list1 .info .right > div:last-child {
+          width: 1.65rem;
+          height: 1.65rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #fff;
+          position: absolute;
+          right: 0.23rem;
+          bottom: 0;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%; }
+          #stylist .list1 .info .right > div:last-child img {
+            width: 97%; }
+  #stylist .list2 {
+    margin-bottom: 1rem; }
+    #stylist .list2 .l4-nav {
+      background-color: #fff; }
+      #stylist .list2 .l4-nav .search-nav {
+        width: 100%;
+        padding: 0.5rem 0; }
+        #stylist .list2 .l4-nav .search-nav > div {
+          width: 90%;
+          border: 1px solid #c8c8c8;
+          margin: auto;
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 0.8rem;
+          -webkit-border-radius: 0.8rem;
+          -moz-border-radius: 0.8rem;
+          border-radius: 0.8rem; }
+          #stylist .list2 .l4-nav .search-nav > div > div {
+            position: absolute;
+            width: 100%;
+            font-size: 0.26rem;
+            color: #999999; }
+            #stylist .list2 .l4-nav .search-nav > div > div > div {
+              display: flex;
+              justify-content: center;
+              align-items: center; }
+              #stylist .list2 .l4-nav .search-nav > div > div > div i {
+                display: inline-block;
+                width: 0.28rem;
+                height: 0.3rem;
+                background: url("../img/icon17.png") no-repeat;
+                background-size: 100% 100%;
+                margin-right: 0.1rem; }
+          #stylist .list2 .l4-nav .search-nav > div > input {
+            width: 90%;
+            text-align: center;
+            font-size: 0.26rem;
+            border: 0; }
+      #stylist .list2 .l4-nav .tag-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0 0.3rem; }
+        #stylist .list2 .l4-nav .tag-nav > div {
+          font-size: 0.24rem;
+          color: #888888;
+          padding: 0.15rem 0;
+          width: 23%;
+          text-align: center;
+          border: 1px solid #e4e4e4;
+          -webkit-border-radius: 0.35rem;
+          -moz-border-radius: 0.35rem;
+          border-radius: 0.35rem;
+          margin-bottom: 0.4rem; }
+        #stylist .list2 .l4-nav .tag-nav > div.sel {
+          background-color: #8693f3;
+          border: 1px solid #8693f3;
+          color: #ffffff; }
+        #stylist .list2 .l4-nav .tag-nav > div:last-child {
+          background-color: #eceeff;
+          border: 1px solid #bac2ff;
+          color: #8693f3; }
+    #stylist .list2 .l4-cont {
+      width: 100%;
+      padding: 0.2rem 0;
+      background-color: #fff; }
+      #stylist .list2 .l4-cont .l4-slide {
+        background-color: #fff;
+        width: 95%;
+        margin: auto;
+        margin-bottom: 0.25rem; }
+        #stylist .list2 .l4-cont .l4-slide > div:first-child {
+          position: relative; }
+          #stylist .list2 .l4-cont .l4-slide > div:first-child img {
+            width: 100%; }
+          #stylist .list2 .l4-cont .l4-slide > div:first-child span {
+            position: absolute;
+            right: -0.055rem;
+            top: 0;
+            width: 0.8rem;
+            height: 0.45rem;
+            background: url("../img/img02.png") no-repeat;
+            background-size: 100% 100%;
+            text-align: center;
+            font-size: 0.24rem;
+            color: #ffffff;
+            line-height: 0.38rem; }
+        #stylist .list2 .l4-cont .l4-slide > div:nth-child(2) {
+          padding: 0.4rem 0 0.4rem 0.3rem;
+          font-size: 0.3rem;
+          color: #333333;
+          border: 1px solid #e4e4e4; }
+          #stylist .list2 .l4-cont .l4-slide > div:nth-child(2) > div:first-child {
+            font-weight: bold;
+            margin-bottom: 0.35rem; }
+          #stylist .list2 .l4-cont .l4-slide > div:nth-child(2) > div:nth-child(2) {
+            display: flex;
+            justify-content: left;
+            align-items: center; }
+            #stylist .list2 .l4-cont .l4-slide > div:nth-child(2) > div:nth-child(2) > div {
+              width: 1.6rem;
+              text-align: center;
+              padding: 0.1rem 0;
+              margin-right: 0.2rem;
+              border: 1px solid #e4e4e4;
+              -webkit-border-radius: 0.4rem;
+              -moz-border-radius: 0.4rem;
+              border-radius: 0.4rem;
+              font-size: 0.24rem;
+              color: #888888; }
+        #stylist .list2 .l4-cont .l4-slide > div:nth-child(3) {
+          display: flex;
+          height: 0.8rem;
+          justify-content: space-between;
+          align-items: center;
+          border: 1px solid #e4e4e4;
+          border-top: 0; }
+          #stylist .list2 .l4-cont .l4-slide > div:nth-child(3) > div {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.24rem;
+            color: #888888; }
+            #stylist .list2 .l4-cont .l4-slide > div:nth-child(3) > div > div:first-child {
+              width: 0.55rem;
+              height: 0.55rem;
+              -webkit-border-radius: 50%;
+              -moz-border-radius: 50%;
+              border-radius: 50%;
+              overflow: hidden;
+              margin-right: 0.1rem; }
+              #stylist .list2 .l4-cont .l4-slide > div:nth-child(3) > div > div:first-child img {
+                width: 100%; }
+          #stylist .list2 .l4-cont .l4-slide > div:nth-child(3) > div:last-child {
+            border-left: 0;
+            border-left: 1px solid #e4e4e4; }
+            #stylist .list2 .l4-cont .l4-slide > div:nth-child(3) > div:last-child > div:first-child {
+              width: 0.35rem;
+              height: 0.25rem;
+              background: url("../img/icon23.png") no-repeat;
+              background-size: 100% 100%; }
+    #stylist .list2 .l4-bottom {
+      width: 100%;
+      text-align: center;
+      font-size: 0.26rem;
+      color: #888888;
+      padding: 0.35rem 0; }
+  #stylist .bottom {
+    position: fixed;
+    width: 100%;
+    height: 1rem;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    border-top: 1px solid #e4e4e4;
+    background-color: #fff; }
+    #stylist .bottom > div {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.28rem;
+      color: #199ed8; }
+    #stylist .bottom > div:first-child {
+      border-right: 1px solid #e4e4e4;
+      color: #da4650; }
+
+#sharer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 0.26rem;
+  color: #333333; }
+  #sharer > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #sharer > div .sharer-wrap {
+      width: 6.45rem;
+      height: 8.45rem;
+      background: url("../img/bj07.png") no-repeat;
+      background-size: 100% 100%; }
+      #sharer > div .sharer-wrap .s-1 {
+        margin-bottom: 0.93rem;
+        position: relative; }
+        #sharer > div .sharer-wrap .s-1 .s1-title {
+          text-align: center;
+          font-size: 0.34rem;
+          color: #ffffff;
+          margin-top: 0.5rem;
+          margin-bottom: 0.55rem; }
+        #sharer > div .sharer-wrap .s-1 .s1-cont {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 0.3rem; }
+          #sharer > div .sharer-wrap .s-1 .s1-cont > div {
+            width: 33.3%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+            font-size: 0.26rem; }
+            #sharer > div .sharer-wrap .s-1 .s1-cont > div > div:first-child {
+              width: 1.15rem;
+              height: 0.7rem;
+              display: flex;
+              justify-content: center;
+              align-items: center; }
+              #sharer > div .sharer-wrap .s-1 .s1-cont > div > div:first-child img {
+                width: 50%;
+                margin: auto; }
+            #sharer > div .sharer-wrap .s-1 .s1-cont > div > div:nth-child(2) {
+              margin-bottom: 0.05rem; }
+            #sharer > div .sharer-wrap .s-1 .s1-cont > div > div:last-child {
+              font-size: 0.24rem;
+              color: #fff000; }
+        #sharer > div .sharer-wrap .s-1 .closeBtn {
+          position: absolute;
+          right: 0.4rem;
+          top: -0.15rem;
+          width: 0.12rem;
+          height: 0.12rem;
+          background-color: #000000;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%; }
+          #sharer > div .sharer-wrap .s-1 .closeBtn > div:first-child {
+            width: 0.06rem;
+            height: 0.85rem;
+            background-color: #fff;
+            position: absolute;
+            bottom: 0.03rem;
+            left: 0.035rem;
+            -webkit-border-radius: 0.2rem;
+            -moz-border-radius: 0.2rem;
+            border-radius: 0.2rem; }
+          #sharer > div .sharer-wrap .s-1 .closeBtn > div:last-child {
+            width: 1.1rem;
+            height: 1.1rem;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            position: absolute;
+            left: -0.47rem;
+            bottom: 0.55rem; }
+            #sharer > div .sharer-wrap .s-1 .closeBtn > div:last-child img {
+              width: 100%; }
+      #sharer > div .sharer-wrap .s-2 {
+        text-align: center;
+        color: #5b6be0;
+        font-weight: bold;
+        font-size: 0.3rem;
+        margin-bottom: 0.35rem; }
+      #sharer > div .sharer-wrap .s-3 {
+        padding: 0 0.5rem;
+        margin-bottom: 0.35rem; }
+        #sharer > div .sharer-wrap .s-3 ol {
+          margin-left: 0.35rem; }
+          #sharer > div .sharer-wrap .s-3 ol li {
+            list-style-type: decimal;
+            margin-bottom: 0.25rem; }
+        #sharer > div .sharer-wrap .s-3 > div {
+          font-size: 0.23rem;
+          color: #888888; }
+      #sharer > div .sharer-wrap .s-4 {
+        text-align: center; }
+        #sharer > div .sharer-wrap .s-4 button {
+          font-size: 0.36rem;
+          color: #ffffff;
+          background-color: #7c89ef;
+          padding: 0.2rem 1rem;
+          -webkit-border-radius: 0.1rem;
+          -moz-border-radius: 0.1rem;
+          border-radius: 0.1rem;
+          -webkit-box-shadow: 0 0 10px rgba(51, 51, 51, 0.5);
+          -moz-box-shadow: 0 0 10px rgba(51, 51, 51, 0.5);
+          box-shadow: 0 0 10px rgba(51, 51, 51, 0.5); }
+
+/*# sourceMappingURL=stylist.css.map */

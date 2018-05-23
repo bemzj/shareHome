@@ -1,5 +1,6 @@
 body{
   overflow-x: hidden;
+  background-color: #fff;
 }
 #clientList{
   width: 100%;
@@ -73,6 +74,7 @@ body{
         text-align: center;
         font-size: 0.26rem;
         border: 0;
+        background-color: transparent;
       }
     }
   }
