@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <title>设计师首页-详情（设计师03）</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/stylistDetail3.css">
+    <script src="js/rem.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+</head>
+<body>
+<!--弹窗-->
+<div id="delBtn" style="display: none">
+    <div>
+        <div class="wrap">
+            <div>
+                <div><img src="img/icon30.png" alt=""></div>
+                <div>
+                    <span>确定删除当前回复?</span>
+                </div>
+            </div>
+            <div>
+                <div class="sure">
+                    <button>确定</button>
+                </div>
+                <div class="cancel">
+                    <button>取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--输入框-->
+<div id="write" style="display: none">
+    <div>
+        <input id="writeInput" type="text" placeholder="回复">
+        <button id="send">发送</button>
+    </div>
+</div>
+<div class="header">
+    <div>
+        <span class="icon"></span>
+        <span class="title">诗尼曼三房0元定制，北欧风格...</span>
+    </div>
+</div>
+<div id="stylistDetail3">
+    <div class="list1">
+        <div class="sel">设计效果图</div>
+        <div class="">安装实拍（安装中）</div>
+        <div class="">设计师</div>
+    </div>
+    <div class="list2">
+        <div class="banner">
+            <img src="img/banner02.png" alt="">
+            <div>
+                <span>TA的设计</span>
+            </div>
+        </div>
+        <div class="info">
+            <div class="left">
+                <div>
+                    <span>获赞</span><span>142</span>
+                </div>
+                <div>
+                    <span>作品</span><span>142</span>
+                </div>
+                <div>
+                    <span>预约</span><span>142</span>
+                </div>
+            </div>
+            <div class="right">
+                <div>彭于晏</div>
+                <div class="head">
+                    <img src="img/head01.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="list3">
+        <div class="l3-1">
+            <span>20</span><span>人咨询免费设计</span>
+        </div>
+        <div class="l3-2">
+            <textarea></textarea>
+            <div class="textPlace">
+                <span></span><span>请编辑您的留言</span>
+            </div>
+        </div>
+        <div class="l3-3">
+            <button>提交留言</button>
+        </div>
+    </div>
+    <div class="list4">
+        <div class="l4-slide">
+            <div class="slide-1">
+                <div>
+                    <img src="img/head11.png" alt="">
+                </div>
+                <div>
+                    <div>
+                        <span>
+                            <img src="img/female.png" alt="">
+                        </span>
+                        <span>赵丽颖</span>
+                    </div>
+                    <div>
+                        <span>2017-12-23</span><span>15:30</span>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-2">
+                <p>您好，我家的准备装修，这套风格我挺喜欢，可以按照我家户型帮我设计一下吗？</p>
+                <div class="huifu">
+                    <div>
+                        <span></span><span>回复</span>
+                    </div>
+                </div>
+            </div>
+            <div class="huifuWrap">
+                <div class="slide-3">
+                    <div class="mes1">
+                        <p><span>张三丰：</span>您好，可以的，直接返回上一个页面输入您的联系方式，到时候跟您约好时间上门量房</p>
+                    </div>
+                </div>
+                <div class="slide-4">
+                    <div>
+                        <span>2017-12-23 15:30</span>
+                    </div>
+                    <div class="del01">
+                        <span></span><span>删除</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="l4-slide">
+            <div class="slide-1">
+                <div>
+                    <img src="img/head11.png" alt="">
+                </div>
+                <div>
+                    <div>
+                        <span>
+                            <img src="img/male.png" alt="">
+                        </span>
+                        <span>赵丽颖</span>
+                    </div>
+                    <div>
+                        <span>2017-12-23</span><span>15:30</span>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-2">
+                <p>您好，我家的准备装修，这套风格我挺喜欢，可以按照我家户型帮我设计一下吗？</p>
+                <div class="huifu">
+                    <div>
+                        <span></span><span>回复</span>
+                    </div>
+                </div>
+            </div>
+            <div class="huifuWrap">
+                <div class="slide-3">
+                    <div class="mes1">
+                        <p><span>张三丰：</span>您好，可以的，直接返回上一个页面输入您的联系方式，到时候跟您约好时间上门量房</p>
+                    </div>
+                </div>
+                <div class="slide-4">
+                    <div>
+                        <span>2017-12-23 15:30</span>
+                    </div>
+                    <div class="del01">
+                        <span></span><span>删除</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="list5">
+        <div class="l5-bottom">
+            <span>duang到底了~</span>
+        </div>
+    </div>
+    <div class="bottom">
+        <div>
+            <span></span><span>晒实拍赢豪礼</span>
+        </div>
+        <div>
+            <span>咨询设计师</span>
+        </div>
+        <div>
+            <span>约TA (201人)</span>
+        </div>
+    </div>
+</div>
+<script src="js/publish.js"></script>
+<script>
+    let index;
+    $(function () {
+        // 标签切换
+        $('#stylistDetail3 .list1>div').click(function () {
+            $('#stylistDetail3 .list1>div').removeClass('sel');
+            $(this).addClass('sel');
+        });
+        // textarea placeholder显示隐藏
+        $('#stylistDetail3 .l3-2').on('touchstart',function () {
+            $('#stylistDetail3 .l3-2 .textPlace').hide();
+            $('#stylistDetail3 .l3-2 textarea').focus();
+        });
+        $('#stylistDetail3 .l3-2 textarea').focusout(function () {
+            if($('#stylistDetail3 .l3-2 textarea').val().length<=0){
+                $('#stylistDetail3 .l3-2 .textPlace').show();
+            }
+        });
+        // 回复事件
+        $('#stylistDetail3 .huifu>div').on('click',function (event) {
+            // $(this).parents('.slide-2').siblings('.huifuWrap').show();
+            event.stopPropagation();
+            $('#stylistDetail3 .bottom').hide();
+            $('#write').show();
+            $('#writeInput').focus();
+        });
+        // 取消回复
+        $('#stylistDetail3').click(function () {
+            $('#stylistDetail3 .bottom').show();
+            $('#write').hide();
+        });
+        //发送事件
+        $('#send').click(function () {
+            let value = $('#writeInput').val();
+            alert(value);
+        })
+        // 删除事件
+        $('#stylistDetail3 .l4-slide .del01').on('touchstart',function () {
+            // $(this).parents('.huifuWrap').hide();
+            index = $(this).parents('.l4-slide').index();
+            $('#delBtn').show();
+            stop();
+        });
+        $('#delBtn .sure').on('touchstart',function () {
+            $('#delBtn').hide();
+            move();
+            $('#stylistDetail3 .l4-slide').eq(index).find('.huifuWrap').hide();
+        })
+        $('#delBtn .cancel').on('touchstart',function () {
+            $('#delBtn').hide();
+            move();
+        })
+    })
+</script>
+</body>
+</html>

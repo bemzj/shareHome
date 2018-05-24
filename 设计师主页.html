@@ -16,7 +16,7 @@
 <body>
 <!--弹窗-->
 <!--进入当前页显示 诗尼曼大分享家-->
-<div id="sharer">
+<div id="sharer" style="">
     <div>
         <div class="sharer-wrap">
             <div class="s-1">
@@ -82,6 +82,59 @@
         </div>
     </div>
 </div>
+<!--免费设计弹窗-->
+<div id="freeDesign" style="display: none;">
+    <div>
+        <div class="wrap">
+            <div class="f-1">
+                <div class="banner">
+                    <img src="img/banner02.png" alt="">
+                </div>
+                <div class="info">
+                    <div class="left">
+                        <div>
+                            <span>获赞</span><span>142</span>
+                        </div>
+                        <div>
+                            <span>作品</span><span>142</span>
+                        </div>
+                        <div>
+                            <span>预约</span><span>142</span>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div>彭于晏</div>
+                        <div class="head">
+                            <img src="img/head01.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="f-2">
+                    <div>本日免费设计名额仅剩<span>3</span>个今日<span>11</span>人</div>
+                    <div>已获得免费设计</div>
+                </div>
+                <div class="f-3">
+                    <form action="">
+                        <div>
+                            <span></span>
+                            <input type="text" placeholder="请输入姓名">
+                        </div>
+                        <div>
+                            <span></span>
+                            <input type="text" placeholder="请输入姓名">
+                        </div>
+                    </form>
+                </div>
+                <div class="f-4">
+                    <button>马上抢</button>
+                    <button>放弃名额</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="header">
     <div>
         <span class="icon"></span>
@@ -120,10 +173,10 @@
                     <div>
                         <div>
                             <i></i>
-                            <label for="search1">输入客户姓名/电话搜索</label>
+                            <label for="search2">输入客户姓名/电话搜索</label>
                         </div>
                     </div>
-                    <input type="text" id="search1">
+                    <input type="text" id="search2">
                 </div>
             </div>
             <div class="tag-nav">
@@ -263,7 +316,7 @@
         <div>
             <span>咨询设计师</span>
         </div>
-        <div>
+        <div class="freeDesign">
             <span>免费设计</span>
         </div>
     </div>
@@ -271,11 +324,45 @@
 <script src="js/publish.js"></script>
 <script>
     $(function () {
-        stop();
+        if($('#sharer').css('display') == 'none'){
+            move();
+        }else{
+            stop();
+        }
+        //关闭sharer弹窗
         $('#sharer .close01').on('touchstart',function () {
             $('#sharer').hide();
             move();
-        })
+        });
+        // 免费设计弹窗
+        $('#stylist .freeDesign').on('touchstart',function () {
+            $('#freeDesign').show();
+            stop();
+        });
+        // 关闭免费设计弹窗
+        $('#freeDesign .f-4>button:last-child').on('touchstart',function () {
+            $('#freeDesign').hide();
+            move();
+        });
+        //input placeHolder 显示隐藏
+        $('#stylist .search-nav>div').on('touchstart',function () {
+            $('#search2').focus();
+            $(this).children('div').hide();
+        });
+        $('#search2').focusout(function () {
+            if($(this).val() ==''){
+                $(this).siblings('div').show();
+            }
+        });
+        //标签选择
+        $('#stylist .tag-nav>div').click(function () {
+            if($(this).index()!=$('.tag-nav>div').length-1){
+                $('.tag-nav>div').removeClass('sel')
+                $(this).addClass('sel')
+            }else{
+                $('.tag-nav>div').removeClass('sel')
+            }
+        });
     })
 
 </script>

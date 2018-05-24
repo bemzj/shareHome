@@ -6,10 +6,10 @@
     <meta content="yes" name="apple-mobile-web-app-capable"/>
     <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
     <meta content="telephone=no" name="format-detection"/>
-    <title>筛选方案</title>
+    <title>设计师首页-筛选</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/public.css">
-    <link rel="stylesheet" href="css/filtrateTag.css">
+    <link rel="stylesheet" href="css/stylistTag.css">
     <script src="js/rem.js"></script>
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 </head>
@@ -20,7 +20,7 @@
         <span class="title">筛选方案</span>
     </div>
 </div>
-<div id="filtrateTag">
+<div id="stylistTag">
     <div class="list1">
         <div class="title">
             <span>全屋方案</span>
@@ -69,16 +69,16 @@
 </div>
 <script>
     $(function () {
-        $('#filtrateTag .list1 .tag-nav>div').on('touchstart',function () {
-            $('#filtrateTag .list1 .tag-nav>div').removeClass('sel');
+        $('#stylistTag .list1 .tag-nav>div').on('touchstart',function () {
+            $('#stylistTag .list1 .tag-nav>div').removeClass('sel');
             $(this).addClass('sel');
         })
-        $('#filtrateTag .list2 .tag-nav>div').on('touchstart',function () {
-            $('#filtrateTag .list2 .tag-nav>div').removeClass('sel');
+        $('#stylistTag .list2 .tag-nav>div').on('touchstart',function () {
+            $('#stylistTag .list2 .tag-nav>div').removeClass('sel');
             $(this).addClass('sel');
         })
-        $('#filtrateTag .list3 .tag-nav>div').on('touchstart',function () {
-            $('#filtrateTag .list3 .tag-nav>div').removeClass('sel');
+        $('#stylistTag .list3 .tag-nav>div').on('touchstart',function () {
+            $('#stylistTag .list3 .tag-nav>div').removeClass('sel');
             $(this).addClass('sel');
         })
     })
