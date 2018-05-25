@@ -163,5 +163,23 @@
         <span>暂无更多订单</span>
     </div>
 </div>
+<script>
+    $(function () {
+        //input placeHolder 显示隐藏
+        $('#clientList .list2>div').on('click',function () {
+            $('#search').focus();
+            $(this).children('div').hide();
+        });
+        $('#search').focusout(function () {
+            if($(this).val() ==''){
+                $(this).siblings('div').show();
+            }
+        });
+        $('#clientList .list3-nav>div').click(function () {
+            $('#clientList .list3-nav>div').removeClass('sel');
+            $(this).addClass('sel')
+        })
+    })
+</script>
 </body>
 </html>

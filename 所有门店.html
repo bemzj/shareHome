@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <title>所有门店</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <script src="js/rem.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="header">
+    <div>
+        <span class="icon"></span>
+        <span class="title">所有门店</span>
+    </div>
+</div>
+<div id="shop">
+    <div class="list1">
+        <div>
+            <span></span><span>广州</span>
+        </div>
+        <div class="search-nav">
+            <div>
+                <div>
+                    <div>
+                        <i></i>
+                        <label for="search5">输入客户姓名/电话搜索</label>
+                    </div>
+                </div>
+                <input type="text" id="search5">
+            </div>
+        </div>
+    </div>
+    <div class="list2">
+        <div class="slideWrap">
+            <div class="slide1">
+                <div class="slide-left">
+                    <img src="img/img12.png" alt="">
+                </div>
+                <div class="slide-right">
+                    <div>
+                        <span>3</span><span>诗尼曼广州番禺区分店</span>
+                    </div>
+                    <div>
+                        <div>
+                            <span></span><span>刘女士</span>
+                        </div>
+                        <div>
+                            <span></span><span>1500000692</span>
+                        </div>
+                        <div>
+                            <span></span><span>广州天河</span>
+                        </div>
+                    </div>
+                    <div>
+                        <button>查看详情</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide1">
+                <div class="slide-left">
+                    <img src="img/img12.png" alt="">
+                </div>
+                <div class="slide-right">
+                    <div>
+                        <span>3</span><span>诗尼曼广州番禺区分店</span>
+                    </div>
+                    <div>
+                        <div>
+                            <span></span><span>刘女士</span>
+                        </div>
+                        <div>
+                            <span></span><span>1500000692</span>
+                        </div>
+                        <div>
+                            <span></span><span>广州天河</span>
+                        </div>
+                    </div>
+                    <div>
+                        <button>查看详情</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide1">
+                <div class="slide-left">
+                    <img src="img/img12.png" alt="">
+                </div>
+                <div class="slide-right">
+                    <div>
+                        <span>3</span><span>诗尼曼广州番禺区分店</span>
+                    </div>
+                    <div>
+                        <div>
+                            <span></span><span>刘女士</span>
+                        </div>
+                        <div>
+                            <span></span><span>1500000692</span>
+                        </div>
+                        <div>
+                            <span></span><span>广州天河</span>
+                        </div>
+                    </div>
+                    <div>
+                        <button>查看详情</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide1">
+                <div class="slide-left">
+                    <img src="img/img12.png" alt="">
+                </div>
+                <div class="slide-right">
+                    <div>
+                        <span>3</span><span>诗尼曼广州番禺区分店</span>
+                    </div>
+                    <div>
+                        <div>
+                            <span></span><span>刘女士</span>
+                        </div>
+                        <div>
+                            <span></span><span>1500000692</span>
+                        </div>
+                        <div>
+                            <span></span><span>广州天河</span>
+                        </div>
+                    </div>
+                    <div>
+                        <button>查看详情</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide1">
+                <div class="slide-left">
+                    <img src="img/img12.png" alt="">
+                </div>
+                <div class="slide-right">
+                    <div>
+                        <span>3</span><span>诗尼曼广州番禺区分店</span>
+                    </div>
+                    <div>
+                        <div>
+                            <span></span><span>刘女士</span>
+                        </div>
+                        <div>
+                            <span></span><span>1500000692</span>
+                        </div>
+                        <div>
+                            <span></span><span>广州天河</span>
+                        </div>
+                    </div>
+                    <div>
+                        <button>查看详情</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="l2-bottom">
+            <span>duang到底了~</span>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="sel">
+            <span></span><span>首页</span>
+        </div>
+        <div class="">
+            <span></span><span>门店</span>
+        </div>
+        <div class="">
+            <span></span><span>方案</span>
+        </div>
+        <div class="">
+            <span></span><span>我的</span>
+        </div>
+    </div>
+</div>
+<script>
+    //input placeHolder 显示隐藏
+    $('#shop .search-nav>div').on('click',function () {
+        $('#search5').focus();
+        $(this).children('div').hide();
+    });
+    $('#search5').focusout(function () {
+        if($(this).val() ==''){
+            $(this).siblings('div').show();
+        }
+    });
+    //底部标签选择
+    $('#shop .bottom>div').click(function () {
+        $('#shop .bottom>div').removeClass('sel');
+        $(this).addClass('sel')
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,331 @@
+#app #index {
+  font-size: 0.26rem;
+  color: #333333; }
+  #app #index .list1 .swiper-index .swiper-wrapper .swiper-slide img {
+    width: 100%; }
+  #app #index .list1 .swiper-index .pagin-index {
+    bottom: 0; }
+    #app #index .list1 .swiper-index .pagin-index .swiper-pagination-bullet {
+      width: 6px;
+      height: 6px;
+      opacity: 1;
+      background-color: #fff; }
+    #app #index .list1 .swiper-index .pagin-index .swiper-pagination-bullet-active {
+      width: 8px;
+      height: 8px;
+      background-color: #a51e32;
+      position: relative;
+      top: 0.02rem; }
+  #app #index .list2 {
+    padding: 0.25rem;
+    background-color: #fff;
+    margin-bottom: 0.2rem; }
+    #app #index .list2 > div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      #app #index .list2 > div > div {
+        width: 49%; }
+        #app #index .list2 > div > div img {
+          width: 100%; }
+      #app #index .list2 > div > div:last-child > div:first-child {
+        margin-bottom: 0.1rem; }
+  #app #index .list3 {
+    background-color: #fff;
+    margin-bottom: 0.2rem; }
+    #app #index .list3 .l3-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.25rem 0.25rem;
+      border-bottom: 1px solid #e4e4e4; }
+      #app #index .list3 .l3-title > div:first-child {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        #app #index .list3 .l3-title > div:first-child > span:first-child {
+          width: 0.18rem;
+          height: 0.2rem;
+          background: url("../img/icon34.png") no-repeat;
+          background-size: 100% 100%;
+          margin-right: 0.1rem; }
+      #app #index .list3 .l3-title > div:last-child button {
+        font-size: 0.24rem;
+        color: #d94650;
+        background-color: #fff1f2;
+        border: 1px solid #ffc7cb;
+        padding: 0.05rem 0.3rem;
+        -webkit-border-radius: 0.5rem;
+        -moz-border-radius: 0.5rem;
+        border-radius: 0.5rem; }
+    #app #index .list3 .slideWrap {
+      padding: 0.2rem 0.25rem;
+      background-color: #fff; }
+      #app #index .list3 .slideWrap .slide1 {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #e4e4e4;
+        padding: 0.4rem 0; }
+        #app #index .list3 .slideWrap .slide1 .slide-left {
+          width: 30%;
+          overflow: hidden; }
+          #app #index .list3 .slideWrap .slide1 .slide-left img {
+            width: 100%; }
+        #app #index .list3 .slideWrap .slide1 .slide-right {
+          padding-left: 0.2rem; }
+          #app #index .list3 .slideWrap .slide1 .slide-right > div {
+            margin-bottom: 0.17rem; }
+          #app #index .list3 .slideWrap .slide1 .slide-right > div:first-child {
+            font-size: 0.28rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center; }
+            #app #index .list3 .slideWrap .slide1 .slide-right > div:first-child > span:first-child {
+              font-size: 0.24rem;
+              color: #ffffff;
+              background-color: #fdc006;
+              padding: 0 0.15rem;
+              -webkit-border-radius: 0.05rem;
+              -moz-border-radius: 0.05rem;
+              border-radius: 0.05rem;
+              margin-right: 0.1rem; }
+          #app #index .list3 .slideWrap .slide1 .slide-right > div:nth-child(2) {
+            display: flex;
+            align-items: center; }
+            #app #index .list3 .slideWrap .slide1 .slide-right > div:nth-child(2) > div {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-right: 0.15rem;
+              font-size: 0.24rem;
+              color: #888888; }
+              #app #index .list3 .slideWrap .slide1 .slide-right > div:nth-child(2) > div span:first-child {
+                margin-right: 0.08rem;
+                width: 0.12rem;
+                height: 0.14rem;
+                background: url("../img/icon14.png") no-repeat;
+                background-size: 100% 100%; }
+            #app #index .list3 .slideWrap .slide1 .slide-right > div:nth-child(2) > div:nth-child(2) span:first-child {
+              background: url("../img/icon25.png") no-repeat;
+              background-size: 100% 100%; }
+            #app #index .list3 .slideWrap .slide1 .slide-right > div:nth-child(2) > div:nth-child(3) span:first-child {
+              width: 0.13rem;
+              background: url("../img/icon15.png") no-repeat;
+              background-size: 100% 100%; }
+          #app #index .list3 .slideWrap .slide1 .slide-right > div:last-child {
+            margin-bottom: 0; }
+            #app #index .list3 .slideWrap .slide1 .slide-right > div:last-child button {
+              color: #d94650;
+              border: 1px solid #d94650;
+              background-color: transparent;
+              padding: 0.13rem 0.5rem;
+              -webkit-border-radius: 0.4rem;
+              -moz-border-radius: 0.4rem;
+              border-radius: 0.4rem; }
+      #app #index .list3 .slideWrap .slide1:last-child {
+        border-bottom: 0; }
+  #app #index .list4 {
+    background-color: #fff; }
+    #app #index .list4 .l4-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.25rem 0.25rem;
+      border-bottom: 1px solid #e4e4e4; }
+      #app #index .list4 .l4-title > div:first-child {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        #app #index .list4 .l4-title > div:first-child > span:first-child {
+          width: 0.18rem;
+          height: 0.2rem;
+          background: url("../img/icon35.png") no-repeat;
+          background-size: 100% 100%;
+          margin-right: 0.1rem; }
+      #app #index .list4 .l4-title > div:last-child button {
+        font-size: 0.24rem;
+        color: #8693f3;
+        background-color: #eceeff;
+        border: 1px solid #bac2ff;
+        padding: 0.05rem 0.3rem;
+        -webkit-border-radius: 0.5rem;
+        -moz-border-radius: 0.5rem;
+        border-radius: 0.5rem; }
+    #app #index .list4 .l4-cont {
+      width: 100%;
+      padding: 0.2rem 0;
+      background-color: #fff; }
+      #app #index .list4 .l4-cont .l4-slide {
+        background-color: #fff;
+        width: 95%;
+        margin: auto;
+        margin-bottom: 0.25rem; }
+        #app #index .list4 .l4-cont .l4-slide > div:first-child {
+          position: relative; }
+          #app #index .list4 .l4-cont .l4-slide > div:first-child img {
+            width: 100%; }
+          #app #index .list4 .l4-cont .l4-slide > div:first-child span {
+            position: absolute;
+            right: -0.055rem;
+            top: 0;
+            width: 0.8rem;
+            height: 0.45rem;
+            background: url("../img/img02.png") no-repeat;
+            background-size: 100% 100%;
+            text-align: center;
+            font-size: 0.24rem;
+            color: #ffffff;
+            line-height: 0.38rem; }
+        #app #index .list4 .l4-cont .l4-slide > div:nth-child(2) {
+          padding: 0.4rem 0.3rem;
+          font-size: 0.3rem;
+          color: #333333;
+          border: 1px solid #e4e4e4; }
+          #app #index .list4 .l4-cont .l4-slide > div:nth-child(2) > div:first-child {
+            font-weight: bold;
+            margin-bottom: 0.2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center; }
+            #app #index .list4 .l4-cont .l4-slide > div:nth-child(2) > div:first-child > div:first-child > span:first-child {
+              margin-right: 0.3rem; }
+          #app #index .list4 .l4-cont .l4-slide > div:nth-child(2) > div:nth-child(2) {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            font-size: 0.24rem;
+            margin-bottom: 0.25rem;
+            color: #888888; }
+            #app #index .list4 .l4-cont .l4-slide > div:nth-child(2) > div:nth-child(2) > div {
+              margin-right: 0.3rem; }
+              #app #index .list4 .l4-cont .l4-slide > div:nth-child(2) > div:nth-child(2) > div > span {
+                display: inline-block;
+                vertical-align: middle; }
+              #app #index .list4 .l4-cont .l4-slide > div:nth-child(2) > div:nth-child(2) > div > span:first-child {
+                width: 0.14rem;
+                height: 0.16rem;
+                background: url("../img/icon14.png") no-repeat;
+                background-size: 100% 100%;
+                margin-right: 0.05rem; }
+            #app #index .list4 .l4-cont .l4-slide > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > span:first-child {
+              background: url("../img/icon25.png") no-repeat;
+              background-size: 100% 100%; }
+            #app #index .list4 .l4-cont .l4-slide > div:nth-child(2) > div:nth-child(2) > div:last-child > span:first-child {
+              background: url("../img/icon15.png") no-repeat;
+              background-size: 100% 100%; }
+          #app #index .list4 .l4-cont .l4-slide > div:nth-child(2) > div:nth-child(3) {
+            display: flex;
+            justify-content: left;
+            align-items: center; }
+            #app #index .list4 .l4-cont .l4-slide > div:nth-child(2) > div:nth-child(3) > div {
+              width: 1.6rem;
+              text-align: center;
+              padding: 0.1rem 0;
+              margin-right: 0.2rem;
+              border: 1px solid #e4e4e4;
+              -webkit-border-radius: 0.4rem;
+              -moz-border-radius: 0.4rem;
+              border-radius: 0.4rem;
+              font-size: 0.24rem;
+              color: #888888; }
+            #app #index .list4 .l4-cont .l4-slide > div:nth-child(2) > div:nth-child(3) > div:last-child {
+              margin-right: 0; }
+        #app #index .list4 .l4-cont .l4-slide > div:nth-child(3) {
+          display: flex;
+          height: 0.8rem;
+          justify-content: space-between;
+          align-items: center;
+          border: 1px solid #e4e4e4;
+          border-top: 0; }
+          #app #index .list4 .l4-cont .l4-slide > div:nth-child(3) > div {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.24rem;
+            color: #888888; }
+            #app #index .list4 .l4-cont .l4-slide > div:nth-child(3) > div > div:first-child {
+              width: 0.55rem;
+              height: 0.55rem;
+              -webkit-border-radius: 50%;
+              -moz-border-radius: 50%;
+              border-radius: 50%;
+              overflow: hidden;
+              margin-right: 0.1rem; }
+              #app #index .list4 .l4-cont .l4-slide > div:nth-child(3) > div > div:first-child img {
+                width: 100%; }
+          #app #index .list4 .l4-cont .l4-slide > div:nth-child(3) > div:last-child {
+            border-left: 0;
+            border-left: 1px solid #e4e4e4; }
+            #app #index .list4 .l4-cont .l4-slide > div:nth-child(3) > div:last-child > div:first-child {
+              width: 0.35rem;
+              height: 0.25rem;
+              background: url("../img/icon23.png") no-repeat;
+              background-size: 100% 100%; }
+  #app #index .list5 {
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 0.4rem;
+    margin-bottom: 1.2rem; }
+    #app #index .list5 button {
+      font-size: 0.3rem;
+      color: #8693f3;
+      background-color: transparent;
+      border: 1px solid #8693f3;
+      padding: 0.25rem 1.9rem;
+      -webkit-border-radius: 0.5rem;
+      -moz-border-radius: 0.5rem;
+      border-radius: 0.5rem; }
+  #app #index .bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1rem;
+    background-color: #ffffff;
+    border-top: 1px solid #e4e4e4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.26rem;
+    color: #333333; }
+    #app #index .bottom > div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 25%;
+      height: 100%; }
+      #app #index .bottom > div > span:first-child {
+        width: 0.35rem;
+        height: 0.3rem;
+        background: url("../img/icon10.png") no-repeat;
+        background-size: 100% 100%;
+        margin-right: 0.1rem; }
+    #app #index .bottom > div.sel {
+      color: #a51e32; }
+      #app #index .bottom > div.sel > span:first-child {
+        background: url("../img/icon10_sel.png") no-repeat;
+        background-size: 100% 100%; }
+    #app #index .bottom > div:nth-child(2) > span:first-child {
+      background: url("../img/icon31.png") no-repeat;
+      background-size: 100% 100%; }
+    #app #index .bottom > div:nth-child(2).sel > span:first-child {
+      background: url("../img/icon31_sel.png") no-repeat;
+      background-size: 100% 100%; }
+    #app #index .bottom > div:nth-child(3) > span:first-child {
+      width: 0.32rem;
+      height: 0.32rem;
+      background: url("../img/icon32.png") no-repeat;
+      background-size: 100% 100%; }
+    #app #index .bottom > div:nth-child(3).sel > span:first-child {
+      background: url("../img/icon32_sel.png") no-repeat;
+      background-size: 100% 100%; }
+    #app #index .bottom > div:nth-child(4) > span:first-child {
+      background: url("../img/icon33.png") no-repeat;
+      background-size: 100% 100%; }
+    #app #index .bottom > div:nth-child(4).sel > span:first-child {
+      background: url("../img/icon33_sel.png") no-repeat;
+      background-size: 100% 100%; }
+
+/*# sourceMappingURL=index.css.map */
